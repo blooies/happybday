@@ -113,3 +113,9 @@ body h2 {
   background-color: #efb5b2;
   top: 5px;
 }
+
+@media only screen and (max-device-width : 670px) {
+    body {
+        zoom: 2;
+    }
+}
