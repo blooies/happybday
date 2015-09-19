@@ -1,0 +1,115 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+body {
+  padding-top: 20%;
+  background-color: #F179A6;
+  font-family: 'Pacifico';
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: #fff;
+  text-shadow: 1px 1px #D15162;
+}
+
+body h2 {
+  text-align: center;
+}
+
+.cake {
+  position: relative;
+  margin: 0 auto;
+  width: 45px;
+  height: 38px;
+  background-color: #f8dddc;
+  border-radius: 3px 3px 3px 3px;
+}
+
+.candle {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 38px;
+  left: 20px;
+  width: 5px;
+  height: 15px;
+  background-color: #fff;
+}
+
+.flame {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  border-radius: 9px 9px 0px 0px;
+  background-color: orange;
+  bottom: 53px;
+  left: 20px;
+}
+
+.plate {
+  position: absolute;
+  height: 10px;
+  width: 56px;
+  background-color: #ccc;
+  border-radius: 2px 2px 5px 5px;
+  top: 28px;
+  right: -5px;
+}
+
+.icing {
+  position: absolute;
+  width: 45px;
+  height: 10px;
+  border-radius: 3px 3px 0px 0px;
+  background-color: #efb5b2;
+}
+
+.squiggle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+  background-color: #efb5b2;
+}
+
+.squiggle:nth-child(2) {
+  left: 22px;
+}
+
+.squiggle::before {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0px;
+  left: 10px;
+  border-radius: 50%;
+  background-color: #efb5b2;
+}
+
+.squiggle:nth-child(1)::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0px;
+  left: 20px;
+  border-radius: 50%;
+  background-color: #efb5b2;
+}
+
+.line {
+  position: absolute;
+  width: 45px;
+  height: 2px;
+  background-color: #efb5b2;
+  top: 16px;
+}
+
+.line::after {
+  content: '';
+  position: absolute;
+  width: 45px;
+  height: 2px;
+  background-color: #efb5b2;
+  top: 5px;
+}
