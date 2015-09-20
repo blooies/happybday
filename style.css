@@ -65,6 +65,10 @@ body h2 {
   bottom: 53px;
   left: 20px;
   animation: flicker 1s infinite;
+  -webkit-animation: flicker 1s infinite;
+  -moz-animation: flicker 1s infinite;
+  -ms-animation: flicker 1s infinite;
+  -o-animation: flicker 1s infinite;
 }
 
 @keyframes flicker {
