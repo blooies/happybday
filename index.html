@@ -1,6 +1,8 @@
 <doctype! html>
   <head>
     <link rel='stylesheet' type='text/css' href='style.css'>
+     <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   </head>
   <body>
     <div class='cake'>
@@ -13,6 +15,17 @@
       <div class='candle'></div>
       <div class='plate'></div>
     </div>
-    <h2>Happy birthday!</h2>
+    <h2>Happy Birthday Kan!</h2>
+    <div class='text'>
+      Dear Kan,
+      <p class='indent'>Happy birthday!! I feel like I already know you since Johnathan always talks so much about you at work! And don't worry- it's all good things :) Just to let you know it was totally my idea to get you an iPad case! I actually had a really tough time picking it out becuz there's just so many choices on Amazon and it was very overwhelming lol. I wasn't sure if you wanted a transparent case (so you can see the gold backing of your iPad) or a colored case. And then Johnathan said you might prefer a case that comes with a flap, but they didn't have that style in transparent. So I asked Johnathan what your favorite color is and ended up just getting you a pink case lol. I hope you like it! Anyways, hope you have an awesome birthday! Johnathan called you an "old lady" but you definitely do not look like it! Haha</p>
+      -Beverly
+    </div>
   </body>
+
+  <script>
+    $('.cake').on('click', function() {
+      $('.text').fadeToggle()
+    })
+  </script>
 </html>
