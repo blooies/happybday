@@ -3,15 +3,34 @@
 body {
   padding-top: 20%;
   background-color: #F179A6;
-  font-family: 'Pacifico';
-  font-size: 24px;
-  letter-spacing: 2px;
   color: #fff;
-  text-shadow: 1px 1px #D15162;
 }
 
 body h2 {
+  font-family: 'Pacifico';
+  font-size: 24px;
+  letter-spacing: 2px;
   text-align: center;
+  text-shadow: 1px 1px #D15162;
+}
+
+.text {
+  display: none;
+  font-family: 'PT Sans';
+  font-size: 15px;
+  width: 50%;
+  margin: 0 auto;
+  background-color: #fff;
+  opacity: .3;
+  box-shadow: 10px 11px 1px -3px rgba(0,0,0,0.75);
+  padding: 20px;
+  margin-top: 50px;
+  color: #000;
+}
+
+.text p {
+  padding: 10px 0px;
+  margin: 0;
 }
 
 .cake {
@@ -21,6 +40,10 @@ body h2 {
   height: 38px;
   background-color: #f8dddc;
   border-radius: 3px 3px 3px 3px;
+}
+
+.cake:hover {
+  cursor: pointer;
 }
 
 .candle {
@@ -41,6 +64,22 @@ body h2 {
   background-color: orange;
   bottom: 53px;
   left: 20px;
+  animation: flicker 1s infinite;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: .2;
+  }
+  25% {
+    opacity: .4;
+  }
+  50% {
+    opacity: .6;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .plate {
