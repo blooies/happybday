@@ -86,6 +86,66 @@ body h2 {
   }
 }
 
+@-webkit-keyframes flicker {
+  0% {
+    opacity: .2;
+  }
+  25% {
+    opacity: .4;
+  }
+  50% {
+    opacity: .6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes flicker {
+  0% {
+    opacity: .2;
+  }
+  25% {
+    opacity: .4;
+  }
+  50% {
+    opacity: .6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes flicker {
+  0% {
+    opacity: .2;
+  }
+  25% {
+    opacity: .4;
+  }
+  50% {
+    opacity: .6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes flicker {
+  0% {
+    opacity: .2;
+  }
+  25% {
+    opacity: .4;
+  }
+  50% {
+    opacity: .6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .plate {
   position: absolute;
   height: 10px;
